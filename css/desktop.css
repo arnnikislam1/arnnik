@@ -2,47 +2,36 @@
 .col-1 {
   width: 8.33%;
 }
-
 .col-2 {
   width: 16.66%;
 }
-
 .col-3 {
   width: 25%;
 }
-
 .col-4 {
   width: 33.33%;
 }
-
 .col-5 {
   width: 41.66%;
 }
-
 .col-6 {
   width: 50%;
 }
-
 .col-7 {
   width: 58.33%;
 }
-
 .col-8 {
   width: 66.66%;
 }
-
 .col-9 {
   width: 75%;
 }
-
 .col-10 {
   width: 83.33%;
 }
-
 .col-11 {
   width: 91.66%;
 }
-
 .col-12 {
   width: 100%;
 }
@@ -53,40 +42,33 @@
   width: 100px;
   border-bottom: none;
 }
-
 .heading-logo {
   text-align: left;
   padding-left: 30px;
 }
-
 .heading-logo img {
   border-radius: 50%;
 }
-
 .heading h1 {
   text-align: right;
   padding-top: 50px;
 }
-
 .heading-menu {
   flex-direction: row;
   justify-content: flex-end;
   padding-right: 30px;
 }
-
 .heading-menu a {
   background-color: transparent;
   margin: 20px 0;
   margin-top: 50px;
   padding: 5px 8px;
 }
-
 .profile h2 {
   font-size: 2.5rem;
   padding: 50px;
   padding-bottom: 0;
 }
-
 .profile p {
   font-size: 1.5rem;
   padding: 50px;
@@ -96,18 +78,14 @@
 .aboutme-container h2 {
   font-size: 2.5rem;
 }
-
-.aboutme-desc p,
-.aboutme-desc p a {
+.aboutme-desc p, .aboutme-desc p a {
   text-align: left;
   font-size: 1.5rem;
 }
-
 .aboutme-desc {
   padding: 40px;
   padding-right: 70px;
 }
-
 .aboutme-img img {
   margin-top: 50%;
   height: 250px;
@@ -118,12 +96,10 @@
 .playlist-wrapper {
   flex-direction: row;
 }
-
 .playlist {
   width: 45%;
   margin: 20px 15px;
 }
-
 .tutorials-container h2 {
   font-size: 2.5rem;
 }
@@ -133,7 +109,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .card {
   width: 31%;
 }
@@ -142,27 +117,19 @@
 .contact-form {
   padding-left: 50px;
 }
-
 .social-icons a {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin: 20px 15px;
 }
-
 .social-icons {
   margin-top: 100px;
   padding: 30px 10px;
 }
 
-/* .achievement, .contact-form, .contact-link {
-  height: 600px;
-} */
-
-
 .footer {
   width: 70%;
   margin: 30px auto;
 }
-
 .footer p {
   font-size: 2rem;
 }
