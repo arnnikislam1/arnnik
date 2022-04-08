@@ -1,0 +1,619 @@
+/** import google font **/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto:wght@500&family=Satisfy&display=swap&family=Noto+Sans+KR:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #f4f4f4;
+}
+
+/* universal or common starts */
+a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.dotted-hr {
+  border: 5px dotted #f4f4f4;
+  border-bottom: none;
+  width: 100px;
+  margin: 10px auto;
+  margin-top: 0;
+}
+
+/* for hover multiple box shadow starts */
+.playlist:hover,
+.aboutme-img img:hover,
+.heading-logo img:hover {
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+/* for hover multiple box shadow end */
+
+/* column design for mobile phones starts here */
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* column design for mobile phones ends here */
+/* universal or common ends */
+
+header {
+  background: #1e3d59;
+}
+
+/** heading logo design starts here **/
+.heading-logo {
+  text-align: center;
+  padding: 10px;
+}
+
+.heading-logo img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: 10px;
+
+}
+
+/** heading logo design ends here **/
+
+/** heading design starts here **/
+.heading {
+  padding: 10px;
+}
+
+.heading h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/** heading design ends here **/
+
+/** heading menu design starts here **/
+.heading-menu {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.heading-menu a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #ff6e40;
+  margin: 10px 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.heading-menu a:hover {
+  background: #708bd2;
+}
+
+.heading-menu a:focus {
+  text-decoration: underline;
+}
+
+/** heading menu design ends here **/
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* profile section design starts here */
+.profile {
+  background: #5d3f6a;
+}
+
+.profile h2 {
+  color: #ffda70;
+  font-weight: 700;
+  padding: 40px 10px 10px 10px;
+}
+
+.profile p {
+  padding: 10px 10px 40px 30px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+/* profile section design ends here */
+
+/* aboutme section starts here */
+.aboutme-container {
+  background: mediumseagreen;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.aboutme-container h2 {
+  padding: 20px;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.aboutme-img {
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutme-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 8px solid #fff;
+}
+
+.aboutme-desc p {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.aboutme-hr {
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 5px 15px;
+}
+
+.aboutme-desc p a {
+  font-size: 1.2rem;
+}
+
+.cv-button {
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 1.1rem;
+  margin: 5px;
+  border-radius: 5px;
+  background: tomato;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cv-button:hover {
+  background: dodgerblue;
+}
+
+.cv-button:focus {
+  text-decoration: underline;
+}
+
+.aboutme-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* aboutme section ends here */
+
+/* Tutorials section design starts here */
+.tutorials-container {
+  background: #ffda70;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tutorials-container h2 {
+  color: #5d3f6a;
+  font-weight: 700;
+}
+
+.playlist-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist {
+  text-align: center;
+  background: #f4f4f4;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.playlist img {
+  width: 100%;
+}
+
+.playlist h3 {
+  background: #414a4c;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Tutorials section design ends here */
+
+/* skills section design starts here */
+.card-container {
+  background: #f4f4f4;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card {
+  background: #efc8b1;
+  color: #514644;
+  border-radius: 5px;
+  width: 95%;
+  height: 550px;
+  margin: 20px auto;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.card-desc {
+  padding: 20px;
+}
+
+.card-desc ol {
+  padding: 0 25px;
+}
+
+.card-desc p {
+  color: #514644;
+}
+
+.card-img {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-img img {
+  border: 4px solid #fff;
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.card-tittle h3 {
+  padding: 10px;
+  background: gray;
+  border-radius: 5px;
+  margin: 5px 10px;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  cursor: poin;
+}
+
+.card-desc li {
+  padding: 10px 0;
+}
+
+/* language skills section starts */
+.skills-desc ul {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.skills-desc ul li {
+  margin: 35px 0;
+  font-family: "Roboto", Sans-Serif;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.skills-desc ul .html {
+  margin-top: 10px;
+}
+
+.skills-desc ul li::before {
+  content: '';
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: #f4f4f4;
+  border-radius: 1000px;
+  width: 100%;
+  height: 15px;
+}
+
+.skills-desc ul li::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: gray;
+  border-radius: 1000px;
+  width: 0;
+  height: 15px;
+
+  /* add animation */
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/* html class animation starts */
+.skills-desc .html::after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 90%;
+    background: tomato;
+  }
+}
+
+/* html class animation ends */
+
+/* css class animation starts */
+.skills-desc .css::after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 80%;
+    background: dodgerblue;
+  }
+}
+
+/* css class animation ends */
+
+/* js class animation starts */
+.skills-desc .js::after {
+  animation-name: js;
+}
+
+@keyframes js {
+  to {
+    width: 60%;
+    background: #6a67ce;
+  }
+}
+
+/* js class animation ends */
+
+/* java class animation starts */
+.skills-desc .java::after {
+  animation-name: java;
+}
+
+@keyframes java {
+  to {
+    width: 70%;
+    background: #2ab7ca;
+  }
+}
+
+/* java class animation ends */
+
+/* c class animation starts */
+.skills-desc .c::after {
+  animation-name: c;
+}
+
+@keyframes c {
+  to {
+    width: 70%;
+    background: mediumseagreen;
+  }
+}
+
+/* c class animation ends */
+
+/* github class animation starts */
+.skills-desc .github::after {
+  animation-name: github;
+}
+
+@keyframes github {
+  to {
+    width: 65%;
+    background: #ea1d5d;
+  }
+}
+
+/* github class animation ends */
+/* language skills section ends */
+
+/* skills section design ends here */
+
+
+/* ACHIEVEMENTS-contact section  design starts here */
+.achievement-contact {
+  background: #49657b;
+  padding: 1% 5%;
+}
+
+.achievement h2,
+.contact-form h2,
+.contact-links h2 {
+  color: #fff;
+  padding: 10px;
+}
+
+.achievement-desc p {
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+/* contact-form style starts here */
+.contact-form form {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact-form fieldset {
+  border: 3px solid #fff;
+  padding: 10px 15px;
+}
+
+.contact-form legend {
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  color: #ffa700;
+  font-size: 1.3rem;
+}
+
+.contact-form input,
+textarea,
+.contact-form-btn {
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  font-size: 1rem;
+}
+
+.contact-form-btn {
+  background: #ff5588;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.contact-form-btn:hover {
+  background: mediumseagreen;
+}
+
+.contact-form textarea {
+  height: 150px;
+  padding-top: 30px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+textarea:focus,
+.contact-form-btn:focus {
+  border: 2px solid #FF8C32;
+}
+
+/* contact-form style ends here */
+
+
+/* contact-links design starts here */
+.social-icons {
+  padding: 30px 20px;
+  margin: 30px 20px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 10px 20px;
+}
+
+.social-icons .fb {
+  color: dodgerblue;
+}
+
+.social-icons .twitter {
+  color: #00acee;
+}
+
+.social-icons .insta {
+  color: tomato;
+}
+
+.social-icons .linkedin {
+  color: #0e76a8;
+}
+
+.social-icons .github {
+  color: #333;
+}
+
+.social-icons .email {
+  color: #EA4335;
+}
+
+.social-icons a:hover {
+  color: gray;
+}
+
+/* contact-links design ends here */
+
+.achievement-contact::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ACHIEVEMENTS-contact section  design ends here */
+
+/* footer section design starts here */
+.footer {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  padding: 10px;
+}
+
+/* footer section design ends here */
