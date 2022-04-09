@@ -70,8 +70,10 @@
   padding-bottom: 0;
 }
 .profile p {
-  font-size: 1.5rem;
-  padding: 50px;
+  font-size: 1.1rem;
+  padding: 80px;
+  padding-top: 30px;
+  text-align: justify;
 }
 
 
@@ -110,7 +112,7 @@
   align-items: center;
 }
 .card {
-  width: 31%;
+  width: 33%;
 }
 
 

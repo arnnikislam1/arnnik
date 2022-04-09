@@ -136,9 +136,9 @@ header::after {
   padding: 40px 10px 10px 10px;
 }
 .profile p {
-  padding: 10px 10px 40px 30px;
+  padding: 10px 20px 40px 30px;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 /* profile section design ends here */
 
@@ -251,8 +251,9 @@ header::after {
   color: #514644;
   border-radius: 5px;
   width: 95%;
-  height: 550px;
+  height: 570px;
   margin: 20px auto;
+  margin-top: 10px;
 }
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
@@ -262,6 +263,7 @@ header::after {
 }
 .card-desc ol {
   padding: 0 25px;
+  padding-right: 20px;
 }
 .card-desc p {
   color: #514644;
@@ -296,7 +298,7 @@ header::after {
   padding: 10px 20px;
 }
 .skills-desc ul li {
-  margin: 35px 0;
+  margin: 38px 10px;
   font-family: "Roboto",Sans-Serif;
   font-size: 1.1rem;
   position: relative;
@@ -307,7 +309,7 @@ header::after {
 .skills-desc ul li::before {
   content: '';
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 9px);
   left: 0;
   background: #f4f4f4;
   border-radius: 1000px;
@@ -317,7 +319,7 @@ header::after {
 .skills-desc ul li::after {
   content: '';
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 9px);
   left: 0;
   background: gray;
   border-radius: 1000px;
@@ -474,13 +476,13 @@ header::after {
   margin: 30px 20px;
   background: #f4f4f4;
   border-radius: 5px;
-  text-align: center;
   box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 .social-icons a {
   text-decoration: none;
   font-size: 2rem;
   margin: 10px 20px;
+  text-align: center;
 }
 .social-icons .fb {
   color: dodgerblue;
